@@ -1,3 +1,4 @@
+/* box model */
 *{
     margin: 0;
     padding: 0;
@@ -179,3 +180,12 @@ h2{
     color: rgb(21, 201, 96);
     letter-spacing: 1px;
 }
+/* css animation */
+/* slide-in animation */
+@keyframes slide-in{
+    0%{
+        transform: translateY(-20%);
+    }
+    100%{ transform: translateY(0);}
+}
+h1{ animation: slide-in 20s ease-in-out;}
