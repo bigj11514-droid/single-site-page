@@ -285,6 +285,99 @@ button:focus-visible {
   line-height: 1.6;
 }
 
+.categories-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.category-tag {
+  background: #e8f5f0;
+  color: #0d7a4d;
+  padding: 0.7rem 1.2rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: 1px solid #c7e7d6;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.category-tag:hover {
+  background: #149454;
+  color: white;
+  border-color: #149454;
+}
+
+.testimonials-section {
+  max-width: 1180px;
+  margin: 0 auto 1.5rem;
+  padding: 3rem 24px;
+  background: linear-gradient(135deg, #dcf8e5 0%, #e8f5f0 100%);
+  border-radius: 1.5rem;
+}
+
+.testimonials-section h3 {
+  font-size: 1.8rem;
+  color: #135c3e;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.testimonial-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.8rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #2d3d3a;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.testimonial-author {
+  font-size: 0.9rem;
+  color: #149454;
+  font-weight: 700;
+}
+
+.faq-list {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.faq-item {
+  background: #f7fffb;
+  padding: 1.5rem;
+  border-left: 4px solid #149454;
+  border-radius: 0.5rem;
+}
+
+.faq-item h4 {
+  color: #0d7a4d;
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+.faq-item p {
+  color: #3a4b47;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
 .site-footer {
   text-align: center;
   padding: 2rem 24px 3rem;
