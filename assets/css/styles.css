@@ -196,6 +196,95 @@ button:focus-visible {
   max-width: 280px;
 }
 
+.support-form {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.support-form label {
+  font-weight: 700;
+  color: #1d4f3a;
+}
+
+.support-form input,
+.support-form textarea {
+  width: 100%;
+  padding: 0.95rem 1rem;
+  border: 1px solid #c7e7d6;
+  border-radius: 1rem;
+  font-size: 1rem;
+  background: #f7fffb;
+}
+
+.support-form textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+.support-form .primary-btn {
+  width: fit-content;
+}
+
+.features-section {
+  max-width: 1180px;
+  margin: 0 auto 1.5rem;
+  padding: 3rem 24px;
+}
+
+.features-section h3 {
+  font-size: 1.8rem;
+  color: #135c3e;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(20, 148, 84, 0.15);
+}
+
+.feature-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: #149454;
+  color: white;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-card h4 {
+  font-size: 1.3rem;
+  color: #0d7a4d;
+  margin-bottom: 0.8rem;
+}
+
+.feature-card p {
+  font-size: 0.95rem;
+  color: #3a4b47;
+  line-height: 1.6;
+}
+
 .site-footer {
   text-align: center;
   padding: 2rem 24px 3rem;
